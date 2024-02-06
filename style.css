@@ -1,11 +1,20 @@
-body{
-    margin: 0 ;
-    text-align: center;
-    background-color: black
-}
 
-.banner{
-    margin: 0 auto;
-    max-width: 100vw;
-    height: 100vh;
+body {
+  text-align: center;
+  background-color: black;
+  
+}
+.banner {
+  width: auto;
+  height: auto;
+}
+@media screen and (max-width: 600px) {
+  .banner {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    height: auto;
+  }
+    
 }
