@@ -1,8 +1,7 @@
-
 body {
+  margin: 0;
   text-align: center;
   background-color: black;
-  
 }
 .banner {
   width: auto;
@@ -16,5 +15,4 @@ body {
     width: 100%;
     height: auto;
   }
-    
 }
