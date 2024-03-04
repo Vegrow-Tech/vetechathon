@@ -165,13 +165,9 @@ body {
 }
 
 .countdown li {
-  background: linear-gradient(
-    to bottom right,
-    #12c2e9,
-    #c471ed
-  );
+  background: linear-gradient(to bottom right, #12c2e9, #c471ed);
   margin: 5px;
-  border-radius: 10px;;
+  border-radius: 10px;
   display: inline-block;
   font-size: 25px;
   list-style-type: none;
@@ -255,7 +251,11 @@ body {
 .themes-section {
   height: 100vh;
   margin-top: 0;
-  background: linear-gradient(to right bottom, rgb(63, 94, 251), rgb(252, 70, 107));
+  background: linear-gradient(
+    to right bottom,
+    rgb(63, 94, 251),
+    rgb(252, 70, 107)
+  );
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -459,14 +459,14 @@ body {
   text-decoration: none;
 }
 
-.sponsors-section {
+.criteria-section {
   display: flex;
   justify-content: center;
 }
 
-.sponsors-section-section {
+.criteria-section-section {
   display: flex;
-  height: 100vh;
+  height: 100%;
   width: 80%;
   flex-direction: column;
   text-align: center;
@@ -752,4 +752,24 @@ footer h4 a span {
   -webkit-transition: all 0.35s ease 0.15s;
   -o-transition: all 0.35s ease 0.15s;
   transition: all 0.35s ease 0.15s;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
+tr:hover {
+  background-color: #f5f5f5;
 }

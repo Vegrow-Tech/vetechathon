@@ -10,7 +10,7 @@
     background-color: #fc466b;
     padding: 20px 0;
     transform: scaleY(0) rotateX(-90deg);
-    transition: transform .3s cubic-bezier(0,1.84,.88,.78);
+    transition: transform 0.3s cubic-bezier(0, 1.84, 0.88, 0.78);
     transform-origin: top;
   }
 
@@ -238,7 +238,11 @@
     height: 225vh;
     margin-top: 0;
     margin-bottom: 50px;
-  background: linear-gradient(to right bottom, rgb(63, 94, 251), rgb(252, 70, 107));
+    background: linear-gradient(
+      to right bottom,
+      rgb(63, 94, 251),
+      rgb(252, 70, 107)
+    );
     display: flex;
     justify-content: center;
     align-items: center;
@@ -427,7 +431,7 @@
     background-color: white;
   }
 
-  .sponsors-section {
+  .criteria-section {
     height: 100vh;
   }
 
