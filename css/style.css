@@ -91,7 +91,6 @@ body {
   font-weight: 600;
   padding: 12px 20px;
   text-align: center;
-  text-transform: lowercase;
   transition: background 300ms;
 }
 
@@ -304,10 +303,12 @@ body {
 }
 
 .event-schedule {
+  width: 100%;
   margin-top: 50px;
 }
 
 .event-schedule h1 {
+  text-align: center;
   font-family: Poppins;
 }
 
