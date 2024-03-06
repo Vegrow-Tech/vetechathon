@@ -47,6 +47,8 @@
     <link rel="stylesheet" href="css/mobile-style.css" />
     <link rel="stylesheet" href="css/particles.css" />
     <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/timeline.css" />
+    <link rel="stylesheet" href="css/criteria.css" />
 
     <!--google fonts-->
     <link
@@ -63,7 +65,7 @@
             <i class="fa fa-bars"></i>
           </label>
           <a href="#" class="hack-logo"
-            ><img src="/assets/vetech-logo.png" width="156px" height="74px" alt="VeTechathon" /></a
+            ><img src="/assets/vetech-logo.png" width="320px" height="150px" margin-top="30px" alt="VeTechathon" /></a
           /></a>
           <input type="checkbox" id="chkToggle" />
           <ul class="main-nav" id="js-menu">
@@ -71,10 +73,10 @@
               <a href="#about-section" class="nav-links">About</a>
             </li>
             <li>
-              <a href="#schedule-section" class="nav-links">Schedule</a>
+              <a href="#countdown-section" class="nav-links">Highlights</a>
             </li>
             <li>
-              <a href="#event-section" class="nav-links">Events</a>
+              <a href="#schedule-section-2" class="nav-links">Timeline</a>
             </li>
             <li>
               <a href="#criteria-section" class="nav-links">Criteria</a>
@@ -85,11 +87,12 @@
           </ul>
         </nav>
         <div class="hackrcdu">
-          <h1 class="animated flipInX">VeTechathon</h1>
-          <h3>May the code be with you!</h3>
-          <h5>
-            Organised Vegrow Tech team 
-          </h5>
+          <h3 style="font-weight: normal;">Byte by Byte, Orchard to Outlet :</h3>
+          <div style="display: flex; align-items: center;">
+            <h3 style="font-size: 45px; font-weight: bold; text-transform: uppercase; margin: 0;">VeTechathon</h3>
+            <h3 style="margin-left: 15px; font-weight: normal;">Unleashed !</h3>
+        </div>
+          <br/><br/><br/><br/>
           <button id="devfolio-apply-now">
             Register Now
           </button>
@@ -123,8 +126,8 @@
       </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about-section" class="section about-section">
+    <!-- HighLight Section -->
+    <section id="countdown-section" class="section about-section">
       <div class="highlights">
         <h1 class="animated flip delay-2s">Hackathon Highlights_</h1>
         <div class="container">
@@ -157,9 +160,10 @@
         </div>
       </div>
     </section>
+    <br/><br/><br/>
 
     <!-- Themes Section -->
-    <section id="themes-section" class="section themes-section">
+    <!-- <section id="themes-section" class="section themes-section">
       <h1 class="animated flip delay-2s">Themes_</h1>
       <div class="theme-cards">
         <div class="theme-card card-clock">
@@ -187,176 +191,237 @@
           <h3>Open Innovation</h3>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <!-- Event Timeline-->
-    <section id="schedule-section" class="section schedule-section">
-      <div class="event-schedule">
-      <h1 class="animated flip delay-2s">Event Timeline</h1>
-      <section id="timeline">
-        <article>
-          <div class="inner">
-            <span class="date">
-              <span class="day">7<sup>th</sup></span>
-              <span class="month">Mar</span>
-              <span class="year">2024</span>
-            </span>
-            <h2>Kickoff Meeting & Registrations open</h2>
+    <section id="schedule-section-2" class="timeline-vertical">
+    <h1 class="timeline-title animated flip delay-2s">Timeline_</h1>
+      <ul>
+        <li>
+          <div>
+            <time>1687</time>
+            <div class="discovery">
+              <h1>Discovery</h1>
+              <p>
+                Laws of motion
+              </p>
+            </div>
+            <div class="scientist">
+              <h1>Scientist</h1>
+              <span>Newton</span>
+            </div>
           </div>
-        </article>
-        <article>
-          <div class="inner">
-            <span class="date">
-              <span class="day">13<sup>th</sup></span>
-              <span class="month">Mar</span>
-              <span class="year">2024</span>
-            </span>
-            <h2>Registration window closes</h2>
+        </li>
+        <li>
+          <div>
+            <time>1785</time>
+            <div class="discovery">
+              <h1>Discovery</h1>
+              <p>
+                Law of electrostatic attraction
+              </p>
+            </div>
+            <div class="scientist">
+              <h1>Scientist</h1>
+              <span>Coulomb</span>
+            </div>
           </div>
-        </article>
-        <article>
-          <div class="inner">
-            <span class="date">
-              <span class="day">15<sup>th</sup></span>
-              <span class="month">Mar</span>
-              <span class="year">2024</span>
-            </span>
-            <h2>Topics Selection deadline</h2>
+        </li>
+        <li>
+          <div>
+            <time>1827</time>
+            <div class="discovery">
+              <h1>Discovery</h1>
+              <p>
+                Law of Electric Resistance
+              </p>
+            </div>
+            <div class="scientist">
+              <h1>Scientist</h1>
+              <span>G.S Ohm</span>
+            </div>
           </div>
-        </article>
-        <article>
-          <div class="inner">
-            <span class="date">
-              <span class="day">21<sup>th</sup></span>
-              <span class="month">Mar</span>
-              <span class="year">2024</span>
-            </span>
-            <h2>Hackathon begins</h2>
+        </li>
+        <li>
+          <div>
+            <time>1831</time>
+            <div class="discovery">
+              <h1>Discovery</h1>
+              <p>
+                Electromagnetic Induction
+              </p>
+            </div>
+            <div class="scientist">
+              <h1>Scientist</h1>
+              <span>Michael Faraday</span>
+            </div>
           </div>
-        </article>
-        <article>
-          <div class="inner">
-            <span class="date">
-              <span class="day">22<sup>th</sup></span>
-              <span class="month">Mar</span>
-              <span class="year">2024</span>
-            </span>
-            <h2>Hackathon ends</h2>
+        </li>
+        <li>
+          <div>
+            <time>1867</time>
+            <div class="discovery">
+              <h1>Discovery</h1>
+              <p>
+                Dynamite
+              </p>
+            </div>
+            <div class="scientist">
+              <h1>Scientist</h1>
+              <span>Alfred Nobel</span>
+            </div>
           </div>
-        </article><article>
-          <div class="inner">
-            <span class="date">
-              <span class="day">27<sup>th</sup></span>
-              <span class="month">Mar</span>
-              <span class="year">2024</span>
-            </span>
-            <h2>Pitching day</h2>
+        </li>
+        <li>
+          <div>
+            <time>1895</time>
+            <div class="discovery">
+              <h1>Discovery</h1>
+              <p>
+                X Rays
+              </p>
+            </div>
+            <div class="scientist">
+              <h1>Scientist</h1>
+              <span>Roentgen</span>
+            </div>
           </div>
-        </article><article>
-          <div class="inner">
-            <span class="date">
-              <span class="day">28<sup>th</sup></span>
-              <span class="month">Mar</span>
-              <span class="year">2024</span>
-            </span>
-            <h2>Results </h2>
+        </li>
+        <li>
+          <div>
+            <time>1897</time>
+            <div class="discovery">
+              <h1>Discovery</h1>
+              <p>
+                Electron
+              </p>
+            </div>
+            <div class="scientist">
+              <h1>Scientist</h1>
+              <span>J.J.Thomson</span>
+            </div>
           </div>
-        </article>
-      </section>
+        </li>
+        <li>
+          <div>
+            <time>1898</time>
+            <div class="discovery">
+              <h1>Discovery</h1>
+              <p>
+                Radium
+              </p>
+            </div>
+            <div class="scientist">
+              <h1>Scientist</h1>
+              <span>Madam Curie</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>1900</time>
+            <div class="discovery">
+              <h1>Discovery</h1>
+              <p>
+                Quantum Theory
+              </p>
+            </div>
+            <div class="scientist">
+              <h1>Scientist</h1>
+              <span>Max Plank</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>1905</time>
+            <div class="discovery">
+              <h1>Discovery</h1>
+              <p>
+                Principle of Relativity
+              </p>
+            </div>
+            <div class="scientist">
+              <h1>Scientist</h1>
+              <span>Albert Einstein</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>1905</time>
+            <div class="discovery">
+              <h1>Discovery</h1>
+              <p>
+                Photo electric effect
+              </p>
+            </div>
+            <div class="scientist">
+              <h1>Scientist</h1>
+              <span>Albert Einstein</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>1942</time>
+            <div class="discovery">
+              <h1>Discovery</h1>
+              <p>
+                Nuclear Reactor
+              </p>
+            </div>
+            <div class="scientist">
+              <h1>Scientist</h1>
+              <span>Anrico Fermi</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+    <!-- Evalution Criteria -->
+    <section id="criteria-section" class="section eval-criteria-section">
+    <h1 class="timeline-title animated flip delay-2s">Evaluation Criteria_</h1>
+    <div class="eval-criteria">
+      <table>
+        <thead>
+          <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+          </tr>
+          <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+          </tr>
+          <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+          </tr>
+          <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+          </tr>
+          <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-    </section>
-
-    <!-- Judgement Criteria -->
-    <section id="criteria-section" class="section criteria-section">
-      <div class="criteria-section-section">
-        <div class="sponsors">
-          <h1 class="animated flip delay-2s">Judgement Criteria</h1>
-          <table>
-            <tr>
-              <th>Criteria</th>
-              <th>Description</th>
-              <th>Weightage</th>
-            </tr>
-            <tr>
-              <td>Impact</td>
-              <td>
-                Potential impact on improving current processes or operations.
-                Ability to address specific pain points or challenges within the
-                industry. Potential to open new business opportunities or
-                revenue streams.
-              </td>
-              <td>20%</td>
-            </tr>
-            <tr>
-              <td>Innovation</td>
-              <td>
-                Uniqueness and creativity of the solution. Novelty in addressing
-                challenges or improving existing processes. Use of cutting-edge
-                technologies or approaches.
-              </td>
-              <td>15%</td>
-            </tr>
-            <tr>
-              <td>Technical Excellence</td>
-              <td>
-                Quality of code and architecture. Efficient use of technology
-                stack and tools. Consideration of best practices and coding
-                standards.
-              </td>
-              <td>15%</td>
-            </tr>
-            <tr>
-              <td>Feasibility and Adaptability</td>
-              <td>
-                Viability and feasibility of the MVP in real-world scenarios.
-                Scalability of the solution to accommodate future growth.
-                Consideration of technical, operational, and financial
-                feasibility. Flexibility and adaptability of the solution to
-                evolving requirements. Potential for future iterations or
-                enhancements based on feedback.
-              </td>
-              <td>15%</td>
-            </tr>
-            <tr>
-              <td>User Experience (UX) and Design</td>
-              <td>
-                Intuitiveness and ease of use for end-users. Improvement in user
-                satisfaction and engagement. Consideration of accessibility and
-                inclusivity principles.
-              </td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td>Functionality</td>
-              <td>
-                Completeness and effectiveness in addressing the defined problem
-                statement. Core features and functionalities implemented.
-                Reliability and robustness of the solution.
-              </td>
-              <td>10%</td>
-            </tr>
-            <tr>
-              <td>Presentation</td>
-              <td>
-                Clarity and effectiveness of the pitch or presentation. Ability
-                to communicate the problem statement, solution, and value
-                proposition. Engagement with the audience and ability to address
-                questions effectively.
-              </td>
-              <td>5%</td>
-            </tr>
-            <tr>
-              <td>Collaboration and Team Dynamics</td>
-              <td>
-                Team synergy, effective communication, and balanced contribution
-                from all members.
-              </td>
-              <td>5%</td>
-            </tr>
-          </table>
-        </div>
-      </div>
-    </section>
+   </section>
 
     <!-- FAQs Section -->
     <section id="faq-section" class="section faq-section">
@@ -488,5 +553,36 @@
         };
       });
     </script>
+
+    <!-- Include JavaScript -->
+<script>
+  var items = document.querySelectorAll(".timeline li");
+
+  function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      if (isElementInViewport(items[i])) {
+        if (!items[i].classList.contains("in-view")) {
+          items[i].classList.add("in-view");
+        }
+      } else if (items[i].classList.contains("in-view")) {
+        items[i].classList.remove("in-view");
+      }
+    }
+  }
+
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+</script>
+
   </body>
 </html>
