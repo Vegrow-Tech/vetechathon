@@ -9,11 +9,13 @@
 	background: linear-gradient(45deg, #49a09d, #5f2c82);
 	font-family: sans-serif;
 	font-weight: 100;
-    margin-top: 14%;
+    margin-top: 22%;
+    font-size: initial;
+    margin-bottom: -180px;
 }
 
 table {
-	width: 80%;
+	width: 90%;
 	border-collapse: collapse;
 	overflow: hidden;
 	box-shadow: 0 0 20px rgba(0,0,0,0.1);
@@ -57,4 +59,7 @@ tbody {
 			}
 		}
 	}
+    .tdc {
+        color: black;
+    }
 }
