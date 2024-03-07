@@ -478,9 +478,6 @@
     background-color: lightgrey;
   }
 
-  .faq-section {
-    height: 100vh;
-  }
 
   .faq-section-section {
     width: 95%;
@@ -493,7 +490,6 @@
   }
 
   .faqs-list {
-    height: 90vh;
     margin-bottom: 10px;
   }
 
