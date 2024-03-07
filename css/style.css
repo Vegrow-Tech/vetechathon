@@ -851,6 +851,8 @@ tr:hover {
 @media (max-width: 768px) {
   .footer{
     height: 100%;
+  }
+  .footer-div{
     flex-direction: column;
   }
   .footer-contact{
@@ -880,6 +882,7 @@ tr:hover {
 }
 .developer{
   color: #cccccc;
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
+  padding: 5px;
 }
