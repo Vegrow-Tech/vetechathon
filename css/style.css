@@ -76,6 +76,7 @@ body {
 }
 
 #devfolio-apply-now {
+  width: 160px;
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;
