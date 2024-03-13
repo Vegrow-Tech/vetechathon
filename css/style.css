@@ -75,7 +75,7 @@ body {
   margin-top: 50px;
 }
 
-#devfolio-apply-now {
+.register-now {
   width: 160px;
   -ms-flex-align: center;
   -webkit-box-align: center;
@@ -94,14 +94,15 @@ body {
   font-weight: 600;
   padding: 12px 20px;
   text-align: center;
+  text-decoration: none;
   transition: background 300ms;
 }
 
-#devfolio-apply-now:not([disabled]) {
+.register-now:not([disabled]) {
   cursor: pointer;
 }
 
-#devfolio-apply-now:hover {
+.register-now:hover {
   background-color: #c5bdbd !important;
 }
 
