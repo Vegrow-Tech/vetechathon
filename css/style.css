@@ -79,7 +79,7 @@ body {
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;
-  background-color: #3770ff;
+  background-color: #b8bbc3;
   border-radius: 3px;
   border: none;
   color: #ffffff;
@@ -97,11 +97,12 @@ body {
 }
 
 #devfolio-apply-now:not([disabled]) {
+  background-color: #b8bbc3 !important;
   cursor: pointer;
 }
 
 #devfolio-apply-now:hover {
-  background-color: #2954bf !important;
+  background-color: #b8bbc3 !important;
 }
 
 .icons {
