@@ -102,7 +102,7 @@
     color: white;
   }
 
-  #devfolio-apply-now {
+  .register-now {
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
@@ -125,6 +125,7 @@
     /* padding: 8px 16px; */
     text-align: center;
     box-shadow: var(--shadow-lg);
+    text-decoration: none;
   }
 
   .icons {
@@ -237,7 +238,6 @@
   }
 
   .themes-section {
-    height: 225vh;
     margin-top: 0;
     margin-bottom: 50px;
     background: linear-gradient(
@@ -478,9 +478,6 @@
     background-color: lightgrey;
   }
 
-  .faq-section {
-    height: 100vh;
-  }
 
   .faq-section-section {
     width: 95%;
@@ -493,7 +490,6 @@
   }
 
   .faqs-list {
-    height: 90vh;
     margin-bottom: 10px;
   }
 
@@ -501,20 +497,5 @@
     height: 25vh;
     font-size: 0.9rem;
     background-color: #212529;
-  }
-
-  .footer-contact {
-    display: flex;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-
-  footer h4 {
-    padding: 5px;
-    margin-bottom: 10px;
-  }
-
-  footer h4 i {
-    color: blue;
   }
 }
