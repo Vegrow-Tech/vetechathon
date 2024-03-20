@@ -15,7 +15,10 @@
 }
 
 .eval-criteria-team {
-	background: linear-gradient(355deg, #4590b3, #603b48);
+	th {
+		background-color: darkslateblue;
+	}
+	background: linear-gradient(355deg, #4590b3, green);
 }
 
 table {
