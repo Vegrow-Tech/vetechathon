@@ -14,6 +14,10 @@
     margin-bottom: -180px;
 }
 
+.eval-criteria-team {
+	background: linear-gradient(355deg, #4590b3, #603b48);
+}
+
 table {
 	width: 90%;
 	border-collapse: collapse;
